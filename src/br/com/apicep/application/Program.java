@@ -7,6 +7,7 @@ public class Program {
 
 	public static void main(String[] args) throws Exception {
 
+		System.setProperty("file.encoding", "ISO-8859-1");
 		String cep = "05367080";
 		
 		Endereco endereco = ServicoDeCep.buscaEnderecoPelo(cep);
